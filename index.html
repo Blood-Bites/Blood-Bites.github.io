@@ -1,0 +1,335 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+<link rel="stylesheet" href="animations.css" type="text/css" />
+
+<script type="text/javascript">
+
+
+</script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $(".scroll").click(function(event) {
+    event.preventDefault();
+    $('html,body').animate( { scrollTop:$(this.hash).offset().top } , 1000);
+    } );
+  } );
+</script>
+
+</head>
+
+<body>
+
+<ul>
+
+
+
+<li class="logo"> <a href="#home"> Blood Bites </a> </li>
+
+<li class="logo"> <a href="aboutus.html"> About Us </a> </li>
+
+<li> <a href="#prevention" class="scroll"> Prevention </a> </li>
+
+<li> <a href="#effects" class="scroll"> Effects </a> </li>
+
+<li> <a href="#causes" class="scroll"> Causes </a> </li>
+
+<li> <a href="#description" class="scroll"> Description </a> </li>
+
+
+
+
+
+</ul>
+
+
+<div id="home">
+
+<h1 class="title"> Thalassemia </h1>
+<h2 class="sub"> A hereditary hemoglobin disorder </h2>
+
+
+<img class="beta-1" src="Beta.png" />
+
+<img class="beta-2" src="Beta-2.png" />
+
+<img class="alpha-1" src="Alpha.png" />
+
+<img class="alpha-2" src="Alpha-2.png" />
+
+
+
+
+</div>
+
+<div id="description">
+
+<button id="subscribe"> Subscribe to our Newsletter! </button>
+
+<div id="modal">
+
+<div class="modal-content">
+
+    <span class="close">&times;</span>
+    <p class="innerpara"> Subscribe to our newsletter! Enter your email below!</p>
+    <input type="text" name="email" placeholder="stuff@somestuff.com" />
+    <button class="go" id="exit"> Go! </button>
+
+</div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('modal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("subscribe");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+var exit = document.getElementById("exit");
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+exit.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<a href="#home" class="scroll" id="scrolling-weird">^</a>
+
+<h1> Description </h1>
+
+<p> In our cells, our blood </p>
+
+</div>
+
+<div id="causes">
+
+<h1> Causes </h1>
+
+
+
+<a href="#home" class="scroll" id="scrolling">^</a>
+
+</div>
+
+<div id="effects">
+
+<h1> Effects </h1>
+
+<a href="#home" class="scroll" id="scrolling">^</a>
+
+</div>
+
+<div id="prevention">
+
+<h1> Prevention </h1>
+
+<a href="#home" class="scroll" id="scrolling">^</a>
+
+</div>
+
+</div>
+
+<footer>
+
+"If I have seen further it is by standing on the shoulder of giants" - Sir Isaac Newton
+
+<br/> <br/>
+
+BIBLIOGRAPHY
+
+
+<br/>
+
+
+<script>
+// Get the modal
+var popup = document.getElementById('popup');
+
+// Get the button that opens the modal
+var contact = document.getElementById("contact");
+
+// Get the <span> element that closes the modal
+var out = document.getElementsByClassName("out")[0];
+
+var ex = document.getElementsByClassName("ex")[0];
+
+
+
+// When the user clicks the button, open the modal 
+contact.onclick = function() {
+    popup.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+out.onclick = function() {
+    popup.style.display = "none";
+}
+
+ex.onclick = function() {
+    popup.style.display = "none";
+}
+
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        popup.style.display = "none";
+    }
+}
+</script>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<canvas id="canvas" width="300" height="300">
+</canvas>
+
+
+<script>
+
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+var radius = canvas.height / 2;
+ctx.translate(radius, radius);
+radius = radius * 0.90
+setInterval(drawClock, 1000);
+
+function drawClock() {
+  drawFace(ctx, radius);
+  drawNumbers(ctx, radius);
+  drawTime(ctx, radius);
+}
+
+function drawFace(ctx, radius) {
+  var grad;
+  ctx.beginPath();
+  ctx.arc(0, 0, radius, 0, 2*Math.PI);
+  ctx.fillStyle = '#FBFBFB';
+  ctx.fill();
+  grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
+  grad.addColorStop(0, '#FFDBDB');
+  grad.addColorStop(0.5, '#BBBBBB');
+  grad.addColorStop(1, '#FF9AA9');
+  ctx.strokeStyle = grad;
+  ctx.lineWidth = radius*0.1;
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
+  ctx.fillStyle = '#121212';
+  ctx.fill();
+}
+
+function drawNumbers(ctx, radius) {
+  var ang;
+  var num;
+  ctx.font = radius*0.15 + "px langdon";
+  ctx.textBaseline="middle";
+  ctx.textAlign="center";
+  for(num = 1; num < 13; num++){
+    ang = num * Math.PI / 6;
+    ctx.rotate(ang);
+    ctx.translate(0, -radius*0.85);
+    ctx.rotate(-ang);
+    ctx.fillText(num.toString(), 0, 0);
+    ctx.rotate(ang);
+    ctx.translate(0, radius*0.85);
+    ctx.rotate(-ang);
+  }
+}
+
+function drawTime(ctx, radius){
+    var now = new Date();
+    var hour = now.getHours();
+    var minute = now.getMinutes();
+    var second = now.getSeconds();
+    //hour
+    hour=hour%12;
+    hour=(hour*Math.PI/6)+
+    (minute*Math.PI/(6*60))+
+    (second*Math.PI/(360*60));
+    drawHand(ctx, hour, radius*0.5, radius*0.07);
+    //minute
+    minute=(minute*Math.PI/30)+(second*Math.PI/(30*60));
+    drawHand(ctx, minute, radius*0.8, radius*0.07);
+    // second
+    second=(second*Math.PI/30);
+    drawHand(ctx, second, radius*0.9, radius*0.02);
+}
+
+function drawHand(ctx, pos, length, width) {
+    ctx.beginPath();
+    ctx.lineWidth = width;
+    ctx.lineCap = "round";
+    ctx.moveTo(0,0);
+    ctx.rotate(pos);
+    ctx.lineTo(0, -length);
+    ctx.stroke();
+    ctx.rotate(-pos);
+}
+
+
+
+</script>
+
+<br/> <br/>
+
+<p id="date" style="color: white"> </p>
+
+
+
+<script>
+
+var d = new Date();
+document.getElementById("date").innerHTML = "Today is, " + d.toDateString();
+
+</script>
+
+<br/>
+
+
+
+
+
+</footer>
+
+</body>
+
+</html>
+
+
+
+
