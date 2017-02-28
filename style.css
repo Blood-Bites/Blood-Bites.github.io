@@ -56,7 +56,7 @@ li.logo {
 }
 
 li a {
-	margin-right: 2em;
+	margin-right: 1em;
 	padding: 1.2em;
 	text-decoration: none;
 	color: #686868;
@@ -96,6 +96,7 @@ h1.title {
 	position: absolute;
 	top: 30%;
 	font-size: 12vw;
+	left: 45%;
 }
 
 h2.sub {
