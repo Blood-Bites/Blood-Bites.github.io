@@ -1,9 +1,9 @@
 .alpha-1 {
 	position: absolute;
-	top: 12em;
-	left: 3em;
-	width:325px; 
-	height:325px;
+	top: 25%;
+	left: 2.5%;
+	width:25vw; 
+	height:25vw;
 	animation-duration: 2s;
 	animation-name: slidein;
 
@@ -11,30 +11,30 @@
 
 .alpha-2 {
 	position: absolute;
-	top: 12em;
-	left: 13em;
-	width:325; 
-	height:325px;
+	top: 25%;
+	left: 15%;
+	width:25vw; 
+	height:25vw;
 	animation-duration: 2s;
 	animation-name: slidein;
 }
 
 .beta-1 {
 	position: absolute;
-	top: 22em;
-	left: 5em;
-	width:325px; 
-	height:325px;
+	top: 42%;
+	left: 3.5%;
+	width:25vw; 
+	height:25vw;
 	animation-duration: 2s;
 	animation-name: slidein;
 }
 
 .beta-2 {
 	position: absolute;
-	top: 22em;
-	left: 10em;
-	width:325px; 
-	height:325px;
+	top: 42%;
+	left: 13%;
+	width:25vw; 
+	height:25vw;
 	animation-duration: 2s;
 	animation-name: slidein;
 }
@@ -51,14 +51,14 @@ h2.sub {
   }
 
   to {
-    width:325px; 
-	height:325px; 
+    width:25vw; 
+	height:25vw; 
   }
 }
 
 @keyframes slidein-2 {
   from {
-  	top: 15em; 
+  	top: 50%; 
 
   }
 
