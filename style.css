@@ -62,14 +62,14 @@ li a {
 	color: #686868;
 	text-transform: uppercase;
 	font-family: langdon;
-	font-size: 1vw;
+	font-size: 1vh;
 }
 
 li a:hover {
 	background-color: #FFACAC;
 	color: white;
 	transition: 0.5s ease-in-out;
-	font-size: 1vw;
+	font-size: 1vh;
 	padding: 0.8em;
 }
 
