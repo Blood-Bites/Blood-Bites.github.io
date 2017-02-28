@@ -87,7 +87,7 @@ h1 {
 	font-family: langdon;
 	letter-spacing: 1px;
 	top: 2em;
-	left: 1em;
+	left: 10%;
 	font-size: 4em;
 	color: #FFACAC;
 }
@@ -96,7 +96,6 @@ h1.title {
 	position: absolute;
 	top: 30%;
 	font-size: 12vw;
-	left: 54.2vw;
 }
 
 h2.sub {

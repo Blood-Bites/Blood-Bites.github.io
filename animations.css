@@ -2,8 +2,8 @@
 	position: absolute;
 	top: 25%;
 	left: 2.5%;
-	width:25vw; 
-	height:25vw;
+	width:8vh; 
+	height:12vw;
 	animation-duration: 2s;
 	animation-name: slidein;
 
@@ -13,28 +13,28 @@
 	position: absolute;
 	top: 25%;
 	left: 15%;
-	width:25vw; 
-	height:25vw;
+	width:8vh; 
+	height:12vw;
 	animation-duration: 2s;
 	animation-name: slidein;
 }
 
 .beta-1 {
 	position: absolute;
-	top: 42%;
+	top: 38%;
 	left: 3.5%;
-	width:25vw; 
-	height:25vw;
+	width:8vh; 
+	height:12vw;
 	animation-duration: 2s;
 	animation-name: slidein;
 }
 
 .beta-2 {
 	position: absolute;
-	top: 42%;
+	top: 38%;
 	left: 13%;
-	width:25vw; 
-	height:25vw;
+	width:8vh; 
+	height:12vw;
 	animation-duration: 2s;
 	animation-name: slidein;
 }
