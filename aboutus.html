@@ -1,0 +1,46 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+<link rel="stylesheet" href="animations.css" type="text/css" />
+
+<script type="text/javascript">
+
+
+</script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $(".scroll").click(function(event) {
+    event.preventDefault();
+    $('html,body').animate( { scrollTop:$(this.hash).offset().top } , 1000);
+    } );
+  } );
+</script>
+
+</head>
+
+<body>
+
+<ul>
+
+
+
+<li class="logo"> <a href="index.html"> Thalassemia </a> </li>
+
+<li class="logo"> <a href="#about"> About Us </a> </li>
+
+
+
+
+</ul>
+
+<div id="home">
+
+Hello
+
+</div>
