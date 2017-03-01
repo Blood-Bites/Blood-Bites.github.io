@@ -12,7 +12,7 @@
 .alpha-2 {
 	position: absolute;
 	top: 25%;
-	left: 15%;
+	left: 13%;
 	width:300px; 
 	height:300px;
 	animation-duration: 2s;
@@ -32,7 +32,7 @@
 .beta-2 {
 	position: absolute;
 	top: 42%;
-	left: 13%;
+	left: 11%;
 	width:300px; 
 	height:300px;
 	animation-duration: 2s;
@@ -58,7 +58,7 @@ h2.sub {
 
 @keyframes slidein-2 {
   from {
-  	top: 50%; 
+  	top: 70%; 
 
   }
 
