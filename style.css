@@ -1,7 +1,6 @@
 *, html, body {
 	margin: 0 0 0 0;
 	padding: 0;
-    overflow-x: hidden;
 }
 
 div#home {
@@ -45,7 +44,6 @@ ul {
 	width: 100%;
 	padding: 1.6em;
 	box-shadow: 0px 10px 2px #DFDFDF;
-    
 
 }
 
