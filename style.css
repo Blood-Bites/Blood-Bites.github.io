@@ -37,7 +37,7 @@ div#prevention {
 
 
 ul {
-	position: absolute;
+	position: static;
 	list-style-type: none;
 	font-family: sans-serif;
 	display: inline;
@@ -45,6 +45,7 @@ ul {
 	width: 100%;
 	padding: 1.6em;
 	box-shadow: 0px 10px 2px #DFDFDF;
+    
 
 }
 
