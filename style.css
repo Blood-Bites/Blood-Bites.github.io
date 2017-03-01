@@ -36,7 +36,7 @@ div#prevention {
 
 
 ul {
-	position: absolute;
+	position: fixed;
 	list-style-type: none;
 	font-family: sans-serif;
 	display: inline;
