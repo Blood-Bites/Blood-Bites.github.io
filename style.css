@@ -88,6 +88,7 @@ div#description p, div#causes p, div#effects p, div#prevention p, div#treatment 
 	font-size: 1.5em;
     padding: 1.5em;
     line-height: 200%;
+    overflow: scroll;
 }
 
 h1 {
