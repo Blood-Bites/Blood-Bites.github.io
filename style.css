@@ -1,6 +1,7 @@
 *, html, body {
 	margin: 0 0 0 0;
 	padding: 0;
+	overflow: scroll;
 }
 
 @font-face {
@@ -84,8 +85,10 @@ div#description p {
 	position: relative;
 	font-family: arial;
 	top: 6em;
-	font-size: 1.2em;
+	font-size: 1.5em;
     padding: 1.5em;
+    line-height: 200%;
+
 }
 
 h1 {
@@ -94,7 +97,7 @@ h1 {
 	font-family: langdon;
 	letter-spacing: 1px;
 	top: 2em;
-	left: 10%;
+	padding: 0 1em;
 	font-size: 4em;
 	color: #FFACAC;
 }
@@ -103,7 +106,7 @@ h1.title {
 	position: absolute;
 	top: 30%;
 	font-size: 10vw;
-	left: 42%;
+	left: 33%;
 }
 
 h2.sub {
@@ -116,50 +119,6 @@ h2.sub {
 	font-size: 5vw;
 	color: #BBBBBB;
 }
-
-#scrolling {
-	margin: 0;
-	padding: 0;
-	position: relative;
-	font-family: langdon;
-	top: 9em;
-	left: 50%;
-	z-index: 1;
-	font-size: 4em;
-	color: #BBBBBB;
-	text-decoration: none;
-	background-color: #FFDFDF;
-	padding: 0.25em;
-	border-radius: 100%;
-
-}
-
-#scrolling-weird {
-	margin: 0;
-	padding: 0;
-	position: relative;
-	font-family: langdon;
-	top: 10em;
-	left: 25%;
-	z-index: 1;
-	font-size: 4em;
-	color: #BBBBBB;
-	text-decoration: none;
-	background-color: #FFDFDF;
-	padding: 0.25em;
-	border-radius: 100%;
-}
-
-#scrolling-weird:hover {
-	background-color: #FFACAC;
-	color: white;
-}
-
-#scrolling:hover {
-	background-color: #FFACAC;
-	color: white;
-}
-
 
 footer {
 	background-color: #ABABAB;
@@ -226,7 +185,7 @@ div#description button:active {
 	padding: 0.5em;
 	border-radius: 0;
 	position: relative;
-	top: 4.7em !important;
+	top: 1.2em !important;
 	left: 5em !important;
 }
 
@@ -252,13 +211,12 @@ div#description button:active {
 }
 
 
-
 .modal-content input {
 	width: 30%;
 	height: 20%;
 	position: relative;
 	padding: 0.25em;
-	top: 5em;
+	top: 1em;
 	font-size: 2em !important;
 	left: 2em;
 	padding: 0.5em;
@@ -269,7 +227,7 @@ div#description button:active {
 	text-transform: uppercase;
 	font-size: 3em !important;
 	font-family: langdon !important;
-	top: 2em !important;
+	top: 0.5em !important;
 	left: 1.2em !important;
 }
 
