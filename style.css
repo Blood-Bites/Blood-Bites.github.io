@@ -25,6 +25,7 @@ div#causes {
 	width: 100%;
 	height: 100%;
 	background-color: #FFEFEF;
+	 overflow: scroll;
 }
 
 
@@ -32,18 +33,21 @@ div#effects {
 	width: 100%;
 	height: 100%;
 	background-color: white;
+	 overflow: scroll;
 }
 
 div#prevention {
 	width: 100%;
 	height: 100%;
 	background-color: #FFEFEF;
+	 overflow: scroll;
 }
 
 div#treatment {
     width: 100%;
 	height: 100%;
     background-color: white;
+     overflow: scroll;
 
 }
 
@@ -88,7 +92,7 @@ div#description p, div#causes p, div#effects p, div#prevention p, div#treatment 
 	font-size: 1.5em;
     padding: 1.5em;
     line-height: 200%;
-    overflow: scroll;
+
 }
 
 h1 {
