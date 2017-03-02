@@ -187,7 +187,7 @@ div#description button:active {
 	padding: 0.5em;
 	border-radius: 0;
 	position: relative;
-	top: 1.2em !important;
+	top: 1em !important;
 	left: 5em !important;
 }
 
@@ -218,7 +218,6 @@ div#description button:active {
 	height: 20%;
 	position: relative;
 	padding: 0.25em;
-	top: 1em;
 	font-size: 2em !important;
 	left: 2em;
 	padding: 0.5em;
@@ -230,7 +229,6 @@ div#description button:active {
 	font-size: 3em !important;
 	font-family: langdon !important;
 	top: 0.5em !important;
-	left: 1.2em !important;
 }
 
 .close {
