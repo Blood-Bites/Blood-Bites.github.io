@@ -126,7 +126,7 @@ h2.sub {
 
 footer {
 	background-color: #ABABAB;
-	height: 200%;
+	height: 250%;
 	color: white;
 	padding: 1em;
 	text-transform: uppercase;
@@ -248,81 +248,6 @@ div#description button:active {
     color: black;
     text-decoration: none;
     cursor: pointer;
-}
-
-#contact {
-	position: relative;
-	top: 2em;
-	width: 6em;
-	background-color: #bbb;
-	color: white;
-	font-family: langdon;
-	border: #FFCACA;
-	font-size: 0.75em;
-	text-transform: uppercase;
-	padding: 0.5em;
-	border-radius: 0;
-	box-shadow: 10px 10px 2px #EFEFEF;
-}
-
-#popup {
-	display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-.popup-content {
-	margin: 15% auto;
-	top: 50%;
-	height: 50%;
-	background-color: #FFFFFF;
-}
-
-.popup-content p {
-	font-size: 1em;
-	color: #555;
-	margin: 1em 0.5em;
-}
-
-.popup-content input {
-	width: 30%;
-	height: 20%;
-	position: relative;
-	font-size: 0.55em;
-	left: 2em;
-	padding: 0.5em;
-}
-
-.ex {
-	background-color: #9A9A9A;
-	width: 8em;
-	color: white;
-	font-family: langdon;
-	border: #FFCACA;
-	font-size: 0.75em;
-	text-transform: uppercase;
-	padding: 0.5em;
-	border-radius: 0;
-	position: absolute !important;
-	top: 8em !important;
-	left: 17em !important;
-}
-
-.out {
-	margin: 0.5em;
-	color: #AAA;
-}
-
-.out:hover, .out:focus {
-	color: #333;
-	cursor: pointer;
 }
 
 footer ul li {
