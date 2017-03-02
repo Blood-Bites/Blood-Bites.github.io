@@ -254,6 +254,15 @@ footer ul li {
 	font-size: 0.5em;
 }
 
+footer ul li a {
+	color: white;
+}
+
+footer ul li a::hover {
+	text-decoration: underline;
+	pointer: cursor;
+}
+
 
 
 
